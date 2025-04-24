@@ -6,6 +6,10 @@ import Feedback from "./components/Feedback/Feedback";
 import Notification from "./components/Notification/Notification";
 
 function App() {
+  useEffect(() => {
+    document.title = "HW-2";
+  });
+
   const INIT_FEEDBACK = {
     good: 0,
     neutral: 0,
